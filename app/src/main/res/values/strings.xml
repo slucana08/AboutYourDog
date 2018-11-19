@@ -1,0 +1,116 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Header will be shown in the application's name bar -->
+    <string name="app_name">About your dog :3</string>
+
+    <!-- Text for question number 1 -->
+    <string name="question_1">How many words or gestures can a dog understand?</string>
+
+    <!-- Text for question number 2 -->
+    <string name="question_2">
+        What is the average pressure (in pounds) a dog\'s mouth can exert?
+    </string>
+
+    <!--
+      This are the three options to select from in question number 2
+      -->
+    <string name="question_2_option_a">600</string>
+    <string name="question_2_option_b">400</string>
+    <string name="question_2_option_c">320</string>
+
+    <!-- Text for question number 3 -->
+    <string name="question_3">Can your dog smell your feelings?</string>
+
+    <!--
+      This are the three options to select from in question number 3
+      -->
+    <string name="question_3_option_a">Of course</string>
+    <string name="question_3_option_b">He/She doesn\'t care</string>
+    <string name="question_3_option_c"></string>
+
+    <!-- Text for question number 4 -->
+    <string name="question_4">Are puppies born deaf?</string>
+
+    <!--
+      This are the two options to select from in question number 4
+      -->
+    <string name="question_4_option_a">Yes</string>
+    <string name="question_4_option_b">No</string>
+
+    <!-- Text for question number 5 -->
+    <string name="question_5">Which of the following is your dog aware of?</string>
+
+    <!--
+      This are the four options to select from in question number 5
+      -->
+    <string name="question_5_option_a">Routine</string>
+    <string name="question_5_option_b">Job</string>
+    <string name="question_5_option_c">Habits</string>
+    <string name="question_5_option_d">New car</string>
+
+    <!-- Text for question number 6 -->
+    <string name="question_6">
+        In which direction do dogs scoop their tongues when drinking water?
+    </string>
+
+    <!--
+      This are the two options to select from in question number 6
+      -->
+    <string name="question_6_option_a">Forward</string>
+    <string name="question_6_option_b">Backward</string>
+
+    <!-- Text for the submit button -->
+    <string name="submit_button">Submit</string>
+
+    <!--
+         Message for the Dialog that tells you the amount of correct answers you got.
+         It will be shown in the format of "You got 3 correct answers"
+         where 3 is the number of correct answer the user got[CHAR LIMIT=NONE]
+     -->
+    <string name="message_complete">
+        You got <xliff:g id="number" example="3">%d</xliff:g> correct answers
+    </string>
+
+    <!--
+         Message for the Dialog that tells you only got one correct answer.
+         It will be shown in the format of "You got 1 correct answer"
+         where 3 is the number of correct answer the user got[CHAR LIMIT=NONE]
+     -->
+    <string name="message_1_answer">
+        You got 1 correct answer
+    </string>
+
+    <!--
+         Message for the Dialog that tells you the amount of correct answers you got.
+         It will be shown in the format of "You got 3 correct answers"
+         where 3 is the number of correct answer the user got[CHAR LIMIT=NONE]
+     -->
+    <string name="message_awesome">
+        You are awesome!! You answered all questions correctly
+    </string>
+
+    <!-- Text for the retry button in dialog fragment-->
+    <string name="try_again">Retry</string>
+
+    <!-- Text for the answers button in dialog fragment-->
+    <string name="answers">Answers</string>
+
+    <!-- Text for the retry button in dialog fragment-->
+    <string name="nice">Nice</string>
+
+    <!-- Text for the facts button in dialog fragment-->
+    <string name="facts">Facts</string>
+
+    <!-- Text for the facts dialog fragment-->
+    <string name="dog_facts">Your dog can understand up to 250 words or gestures.
+        \n\nA dog\'s jaw is super strong. The average pressure it can apply is 320 pounds.
+        \n\nDogs pick up the subtlest of changes in your scent. This lets them know about your
+        current mood.
+        \n\nPuppies are born deaf but they quickly surpass our hearing abilities. So be careful
+        about what you say around them.
+        \n\nDogs pick up on our routines and habits. So if you wonder if they know when "walk" time
+        is supposed to happen, well they do.
+        \n\nWhen a dog drinks water, its tongue scoops backwards so it can carry the largest amount
+        of water with every slurp.
+    </string>
+
+</resources>
